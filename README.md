@@ -1,10 +1,14 @@
 # Hackoustic
 
-page "Mesure"
+## page "Mesure"
   contenu:
+  
     - visualisation du niveau sonore
+    
     - bouton submit
+    
   action: traitement des données renvoyé vers la page "Infos son"
+  
   données à traiter: niveau sonore, lieux
   
   
