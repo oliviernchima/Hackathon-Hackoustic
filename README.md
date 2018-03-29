@@ -9,10 +9,7 @@
   action: 
   
     - traitement des données renvoyé vers la page "Infos son"
-  
-  données à traiter: niveau sonore, lieu
-  
-  
+    
 ### page "Infos son"
   contenu: 
   
