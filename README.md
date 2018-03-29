@@ -6,9 +6,11 @@
     - visualisation du niveau sonore
     - bouton submit
     
-  action: traitement des données renvoyé vers la page "Infos son"
+  action: 
   
-  données à traiter: niveau sonore, lieux
+    - traitement des données renvoyé vers la page "Infos son"
+  
+  données à traiter: niveau sonore, lieu
   
   
 ### page "Infos son"
@@ -20,7 +22,10 @@
     - lien page "Infos sensibilisation"
     - possibilité d'ajout à la page "Map"
     
-  action: vers la page "Maps" ou vers la page "Infos sensibilisation"
+  action:
+  
+    - vers la page "Maps"
+    - vers la page "Infos sensibilisation"
   
 ### page "Map"
   contenu:
@@ -28,7 +33,9 @@
     - lieux repertoriés via API
     - lieux ajoutés par l'utilisateur
     
-  action: vers la page "Infos lieux"
+  action:
+  
+    - vers la page "Infos lieux"
 
   
 ### page "Infos lieux"
@@ -37,7 +44,9 @@
     - niveau sonore selon des plages horaires
     - lien ves la page "Infos sensibilisation"
     
-  action: vers la page "Infos sensibilisation"
+  action:
+  
+    - vers la page "Infos sensibilisation"
 
   
 ### page "Infos sensibilisation
