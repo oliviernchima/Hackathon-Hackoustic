@@ -13,7 +13,7 @@
 ### page "Infos son"
   contenu: 
   
-    - quote / blagues
+    - quote
     - infos relatives au son (smiley de couleurs différentes)
     - infos relatives au lieu
     - lien page "Infos sensibilisation"
